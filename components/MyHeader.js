@@ -1,7 +1,11 @@
 import React from 'react';
 
 function MyHeader() {
-  return <h1>Welcome to my React Profile Page.</h1>;
+  return (
+    <header>
+      <h1 className="header">Welcome to my React Profile Page.</h1>
+    </header>
+  );
 }
 
 export default MyHeader;
