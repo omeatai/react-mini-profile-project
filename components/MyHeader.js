@@ -1,6 +1,6 @@
 import React from 'react';
 
-const styles = {
+const header = {
   color: '#fff',
   backgroundColor: '#000',
   fontSize: '20px',
@@ -11,7 +11,7 @@ const styles = {
 
 function MyHeader() {
   return (
-    <header style={styles} className="navbar">
+    <header style={header} className="navbar">
       WELCOME!
     </header>
   );
