@@ -1,6 +1,6 @@
 import React from 'react';
 
-const header = {
+const headerTag = {
   color: '#fff',
   backgroundColor: '#000',
   fontSize: '20px',
@@ -11,9 +11,9 @@ const header = {
 
 function MyHeader() {
   return (
-    <header style={header} className="navbar">
-      <p>WELCOME TO MY PROFILE</p>
-      <p>WELCOME TO MY PROFILE</p>
+    <header style={headerTag} className="navbar">
+      <p>Good Morning!</p>
+      <p>WELCOME TO MY PAGE</p>
     </header>
   );
 }
