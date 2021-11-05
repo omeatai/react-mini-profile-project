@@ -4,7 +4,7 @@ const header = {
   color: '#fff',
   backgroundColor: '#000',
   fontSize: '20px',
-  padding: '50px',
+  padding: '30px',
   textAlign: 'center',
   fontWeight: 'bold',
 };
@@ -12,7 +12,8 @@ const header = {
 function MyHeader() {
   return (
     <header style={header} className="navbar">
-      WELCOME!
+      <p>WELCOME TO MY PROFILE</p>
+      <p>WELCOME TO MY PROFILE</p>
     </header>
   );
 }
