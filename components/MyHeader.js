@@ -5,11 +5,12 @@ const myHeaderStyle = {
   color: '#fff',
   fontWeight: 'bold',
   padding: '10px',
+  textAlign: 'center',
 };
 
 function MyHeader() {
   return (
-    <header>
+    <header style={myHeaderStyle}>
       <p>Good Morning!</p>
       <p>WELCOME TO MY PAGE</p>
     </header>
