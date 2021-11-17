@@ -2,14 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 
-function MyApp() {
-  return (
-    <div>
-      <p className="red">contents</p>
-    </div>
-  );
-}
-
 function MyHeader() {
   return (
     <header className="mystyle">
@@ -41,7 +33,6 @@ function MyFooter() {
 function App() {
   return (
     <div>
-      <MyApp />
       <MyHeader />
       <Main />
       <MyFooter />
