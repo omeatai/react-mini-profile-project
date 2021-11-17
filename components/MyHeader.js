@@ -1,13 +1,5 @@
 import React from 'react';
 
-// const myHeaderStyle = {
-//   backgroundColor: '#000',
-//   color: '#fff',
-//   fontWeight: 'bold',
-//   padding: '10px',
-//   textAlign: 'center',
-// };
-
 let timeOfTheDay = 'Morning';
 const date = new Date();
 const hours = date.getHours();
