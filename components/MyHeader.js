@@ -6,13 +6,10 @@ const hours = date.getHours();
 
 if (hours < 12) {
   timeOfTheDay = 'Morning';
-  // myHeaderStyle.color = 'lightyellow';
 } else if (hours < 17) {
   timeOfTheDay = 'Afternoon';
-  // myHeaderStyle.color = 'red';
 } else {
   timeOfTheDay = 'Evening';
-  // myHeaderStyle.color = 'lightblue';
 }
 console.log(hours);
 
