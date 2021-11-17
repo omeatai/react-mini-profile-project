@@ -1,4 +1,5 @@
 import React from 'react';
+import './../style.css';
 
 const myHeaderStyle = {
   backgroundColor: '#000',
@@ -26,7 +27,7 @@ console.log(hours);
 
 function MyHeader() {
   return (
-    <header style={myHeaderStyle}>
+    <header className="myHeaderStyle">
       <p>Good {timeOfTheDay}!</p>
       <p>WELCOME TO MY PAGE</p>
     </header>
