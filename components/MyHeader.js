@@ -4,7 +4,7 @@ let timeOfTheDay;
 const date = new Date();
 const hours = date.getHours();
 
-if (hours < 12) {
+if (hours < 8) {
   timeOfTheDay = 'morning';
 } else if (hours < 17) {
   timeOfTheDay = 'afternoon';
