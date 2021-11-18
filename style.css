@@ -1,20 +1,24 @@
-.mystyle {
+.morning {
   background-color: #000;
   font-weight: bold;
   padding: 10px;
   text-align: center;
-  color: #fff;
-}
-
-.morning {
   color: yellow;
   /* color: lightyellow; */
 }
 
 .afternoon {
+  background-color: #000;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
   color: red;
 }
 
 .evening {
+  background-color: #000;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
   color: blue;
 }
