@@ -15,7 +15,7 @@ console.log(hours);
 
 function MyHeader() {
   return (
-    <header className="{timeOfTheDay}">
+    <header className="mystyle evening">
       <p>Good {timeOfTheDay}!</p>
       <p>WELCOME TO MY PAGE</p>
     </header>
