@@ -5,11 +5,11 @@ const date = new Date();
 const hours = date.getHours();
 
 if (hours < 12) {
-  timeOfTheDay = 'Morning';
+  timeOfTheDay = 'morning';
 } else if (hours < 17) {
-  timeOfTheDay = 'Afternoon';
+  timeOfTheDay = 'afternoon';
 } else {
-  timeOfTheDay = 'Evening';
+  timeOfTheDay = 'evening';
 }
 console.log(hours);
 
