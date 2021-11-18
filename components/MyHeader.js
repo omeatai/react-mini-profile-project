@@ -1,6 +1,6 @@
 import React from 'react';
 
-let timeOfTheDay = 'Morning';
+let timeOfTheDay;
 const date = new Date();
 const hours = date.getHours();
 
