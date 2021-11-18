@@ -4,14 +4,14 @@ let timeOfTheDay;
 const date = new Date();
 const hours = date.getHours();
 
-if (hours < 8) {
+if (hours < 12) {
   timeOfTheDay = 'morning';
 } else if (hours < 17) {
   timeOfTheDay = 'afternoon';
 } else {
   timeOfTheDay = 'evening';
 }
-console.log(hours);
+console.log(hours, timeOfTheDay);
 
 function MyHeader() {
   return (
