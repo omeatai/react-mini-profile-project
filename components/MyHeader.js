@@ -1,7 +1,6 @@
 import React from 'react';
 
 let timeOfTheDay;
-const mystyle = 'mystyle';
 const date = new Date();
 const hours = date.getHours();
 
